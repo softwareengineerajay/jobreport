@@ -23,10 +23,6 @@
           <DataField>UserId</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
-        <Field Name="ASPXPage">
-          <DataField>ASPXPage</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="Address">
           <DataField>Address</DataField>
           <rd:TypeName>System.String</rd:TypeName>
@@ -107,6 +103,30 @@
           <DataField>Attributes</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="LogoTypeId">
+          <DataField>LogoTypeId</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
+        <Field Name="ConsumerId">
+          <DataField>ConsumerId</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
+        <Field Name="ConsumerType">
+          <DataField>ConsumerType</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
+        <Field Name="LogoFileName">
+          <DataField>LogoFileName</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
+        <Field Name="LogoImage">
+          <DataField>LogoImage</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
+        <Field Name="LogoType">
+          <DataField>LogoType</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
+        </Field>
       </Fields>
     </DataSet>
   </DataSets>
@@ -118,10 +138,10 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.15226in</Width>
+                  <Width>0.98838in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.87777in</Width>
+                  <Width>0.80832in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>1.00278in</Width>
@@ -133,7 +153,7 @@
                   <Width>0.47552in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.78333in</Width>
+                  <Width>0.75833in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -159,8 +179,7 @@
                           <rd:DefaultName>Textbox1</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -189,8 +208,7 @@
                           <rd:DefaultName>Textbox3</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -219,8 +237,7 @@
                           <rd:DefaultName>Textbox5</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -313,8 +330,7 @@
                           <rd:DefaultName>Textbox9</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -440,8 +456,7 @@
                           <rd:DefaultName>SalesQuantity</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -472,8 +487,7 @@
                           <rd:DefaultName>Unit</rd:DefaultName>
                           <Style>
                             <Border>
-                              <Color>LightGrey</Color>
-                              <Style>Solid</Style>
+                              <Style>None</Style>
                             </Border>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
@@ -492,7 +506,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>------------------</Value>
+                                  <Value>-------</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -539,7 +553,7 @@
             <DataSetName>TempJobReturnTicketPrintDetails</DataSetName>
             <Top>2.33273in</Top>
             <Height>0.625in</Height>
-            <Width>5.29166in</Width>
+            <Width>5.03333in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -548,19 +562,6 @@
           </Tablix>
           <Rectangle Name="Rectangle1">
             <ReportItems>
-              <Image Name="Image1">
-                <Source>Embedded</Source>
-                <Value>Nov_image</Value>
-                <Sizing>FitProportional</Sizing>
-                <Left>0.1in</Left>
-                <Height>0.48021in</Height>
-                <Width>2in</Width>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                </Style>
-              </Image>
               <Textbox Name="Textbox13">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
@@ -587,7 +588,6 @@
                 <Left>0.82223in</Left>
                 <Height>0.39167in</Height>
                 <Width>1.01944in</Width>
-                <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -598,11 +598,55 @@
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
+              <Rectangle Name="Rectangle2">
+                <ReportItems>
+                  <Textbox Name="LogoImage">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=First(Fields!LogoImage.Value, "TempJobReturnTicketPrintDetails")</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>LogoImage</rd:DefaultName>
+                    <Top>0.15714in</Top>
+                    <Left>0.375in</Left>
+                    <Height>0.25in</Height>
+                    <Width>1in</Width>
+                    <Style>
+                      <Border>
+                        <Style>None</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </ReportItems>
+                <KeepTogether>true</KeepTogether>
+                <Top>0.11786in</Top>
+                <Left>0.19389in</Left>
+                <Height>1in</Height>
+                <Width>2in</Width>
+                <ZIndex>1</ZIndex>
+                <Style>
+                  <Border>
+                    <Style>None</Style>
+                  </Border>
+                </Style>
+              </Rectangle>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Top>0.12167in</Top>
             <Left>0.13611in</Left>
-            <Height>1.04941in</Height>
+            <Height>1.325in</Height>
             <Width>3.38334in</Width>
             <ZIndex>1</ZIndex>
             <Style>
@@ -966,7 +1010,7 @@
             <Top>0.70694in</Top>
             <Left>5in</Left>
             <Height>0.17753in</Height>
-            <Width>0.73385in</Width>
+            <Width>1.18662in</Width>
             <ZIndex>11</ZIndex>
             <Style>
               <Border>
