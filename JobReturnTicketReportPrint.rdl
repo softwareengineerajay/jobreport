@@ -139,22 +139,22 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.04928in</Width>
+                  <Width>0.95807in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.86922in</Width>
+                  <Width>0.76859in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.06698in</Width>
+                  <Width>0.98155in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.02756in</Width>
+                  <Width>1.05118in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.44823in</Width>
+                  <Width>0.64742in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.81923in</Width>
+                  <Width>0.98167in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -475,10 +475,13 @@
                                   <Value>=Fields!SalesQuantity.Value</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
+                                    <Format>0.0;(0.0)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>SalesQuantity</rd:DefaultName>
@@ -510,6 +513,7 @@
                                   <Value>=Fields!Unit.Value</Value>
                                   <Style>
                                     <FontFamily>Arial</FontFamily>
+                                    <Format>0.00;(0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -542,7 +546,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>------------</Value>
+                                  <Value />
                                   <Style />
                                 </TextRun>
                               </TextRuns>
@@ -594,7 +598,7 @@
             <Top>2.97717in</Top>
             <Left>0.0136in</Left>
             <Height>0.625in</Height>
-            <Width>5.2805in</Width>
+            <Width>5.38848in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1551,9 +1555,9 @@
             <MIMEType>image/png</MIMEType>
             <Sizing>Fit</Sizing>
             <Top>0.62197in</Top>
-            <Left>0.47167in</Left>
+            <Left>0.11604in</Left>
             <Height>0.5in</Height>
-            <Width>0.5in</Width>
+            <Width>0.85563in</Width>
             <ZIndex>27</ZIndex>
             <ToolTip>Image2</ToolTip>
             <Style>
@@ -1592,12 +1596,161 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
+          <Line Name="Line3">
+            <Top>3.4855in</Top>
+            <Left>4.47205in</Left>
+            <Height>0in</Height>
+            <Width>0.93554in</Width>
+            <ZIndex>29</ZIndex>
+            <Style>
+              <Border>
+                <Style>Solid</Style>
+              </Border>
+            </Style>
+          </Line>
         </ReportItems>
-        <Height>3.74384in</Height>
+        <Height>3.92717in</Height>
         <Style />
       </Body>
-      <Width>5.91161in</Width>
+      <Width>6.28in</Width>
       <Page>
+        <PageFooter>
+          <Height>1in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="Textbox4">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Signature</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox4</rd:DefaultName>
+              <Top>0.15283in</Top>
+              <Left>0.11604in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox10">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Print Name</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox10</rd:DefaultName>
+              <Top>0.58616in</Top>
+              <Left>0.11604in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox13">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>Date</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>Textbox13</rd:DefaultName>
+              <Top>0.15283in</Top>
+              <Left>3.51162in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Line Name="Line2">
+              <Top>0.3in</Top>
+              <Left>1.18207in</Left>
+              <Height>0in</Height>
+              <Width>1.63095in</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+            <Line Name="Line4">
+              <Top>0.3in</Top>
+              <Left>4.02664in</Left>
+              <Height>0in</Height>
+              <Width>1.63095in</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+            <Line Name="Line5">
+              <Top>0.71116in</Top>
+              <Left>1.18207in</Left>
+              <Height>0in</Height>
+              <Width>1.63095in</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Line>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
         <TopMargin>1in</TopMargin>
