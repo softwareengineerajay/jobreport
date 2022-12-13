@@ -1662,7 +1662,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=First(Fields!BillTo.Value, "TempJobReturnTicketPrintDetails")</Value>
+                      <Value>=Fields!ShipTo.Value</Value>
                       <Style>
                         <FontFamily>Times New Roman</FontFamily>
                         <FontSize>8pt</FontSize>
