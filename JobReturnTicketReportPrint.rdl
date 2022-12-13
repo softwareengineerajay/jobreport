@@ -661,7 +661,7 @@
       <Width>6.28in</Width>
       <Page>
         <PageHeader>
-          <Height>2.76663in</Height>
+          <Height>4in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <ReportItems>
             <Textbox Name="Textbox106">
@@ -1588,7 +1588,10 @@
                   <TextRuns>
                     <TextRun>
                       <Value>=Fields!Address.Value</Value>
-                      <Style />
+                      <Style>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
@@ -1631,7 +1634,7 @@
                       <Value>:</Value>
                       <Style>
                         <FontFamily>Times New Roman</FontFamily>
-                        <FontSize>8.25pt</FontSize>
+                        <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1641,15 +1644,48 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
-              <Top>2.16459in</Top>
+              <Top>1.95928in</Top>
               <Left>0.11604in</Left>
               <Height>0.17753in</Height>
-              <Width>1in</Width>
+              <Width>0.675in</Width>
               <ZIndex>27</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
                 </Border>
+              </Style>
+            </Textbox>
+            <Textbox Name="BillTo">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!BillTo.Value, "TempJobReturnTicketPrintDetails")</Value>
+                      <Style>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <FontSize>8pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>BillTo</rd:DefaultName>
+              <Top>1.88681in</Top>
+              <Left>0.97718in</Left>
+              <Height>0.45531in</Height>
+              <Width>1.45872in</Width>
+              <ZIndex>28</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
               </Style>
             </Textbox>
           </ReportItems>
