@@ -632,8 +632,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>TempJobReturnTicketPrintDetails</DataSetName>
-            <Top>0.57717in</Top>
-            <Left>0.11604in</Left>
+            <Top>0.19384in</Top>
+            <Left>0.10914in</Left>
             <Height>0.625in</Height>
             <Width>6.07766in</Width>
             <Style>
@@ -658,7 +658,7 @@
         <Height>2.80217in</Height>
         <Style />
       </Body>
-      <Width>6.34794in</Width>
+      <Width>6.49358in</Width>
       <Page>
         <PageHeader>
           <Height>3.4in</Height>
@@ -696,7 +696,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.29222in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.33333in</Width>
               <Style>
@@ -726,7 +726,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.33389in</Top>
-              <Left>4.98017in</Left>
+              <Left>5.12581in</Left>
               <Height>0.17753in</Height>
               <Width>0.74773in</Width>
               <ZIndex>1</ZIndex>
@@ -768,7 +768,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.5392in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.31944in</Width>
               <ZIndex>2</ZIndex>
@@ -799,7 +799,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.5392in</Top>
-              <Left>4.9793in</Left>
+              <Left>5.12494in</Left>
               <Height>0.17753in</Height>
               <Width>1.21309in</Width>
               <ZIndex>3</ZIndex>
@@ -841,7 +841,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.74451in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.31944in</Width>
               <ZIndex>4</ZIndex>
@@ -872,7 +872,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.73062in</Top>
-              <Left>4.99318in</Left>
+              <Left>5.13882in</Left>
               <Height>0.17753in</Height>
               <Width>0.17273in</Width>
               <ZIndex>5</ZIndex>
@@ -914,7 +914,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.93592in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.34723in</Width>
               <ZIndex>6</ZIndex>
@@ -945,7 +945,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>0.94981in</Top>
-              <Left>4.9793in</Left>
+              <Left>5.12494in</Left>
               <Height>0.17753in</Height>
               <Width>0.49773in</Width>
               <ZIndex>7</ZIndex>
@@ -987,7 +987,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.15512in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.31944in</Width>
               <ZIndex>8</ZIndex>
@@ -1018,7 +1018,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.15512in</Top>
-              <Left>4.99318in</Left>
+              <Left>5.13882in</Left>
               <Height>0.17753in</Height>
               <Width>1.35476in</Width>
               <ZIndex>9</ZIndex>
@@ -1060,7 +1060,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.36043in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.31944in</Width>
               <ZIndex>10</ZIndex>
@@ -1091,7 +1091,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.37432in</Top>
-              <Left>4.99318in</Left>
+              <Left>5.13882in</Left>
               <Height>0.17753in</Height>
               <Width>0.73472in</Width>
               <ZIndex>11</ZIndex>
@@ -1108,7 +1108,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value> Customer's Reference.        </Value>
+                      <Value>Customer's Reference.        </Value>
                       <Style>
                         <FontStyle>Normal</FontStyle>
                         <FontFamily>Times New Roman</FontFamily>
@@ -1126,7 +1126,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.55185in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.33333in</Width>
               <ZIndex>12</ZIndex>
@@ -1157,7 +1157,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.56574in</Top>
-              <Left>4.9793in</Left>
+              <Left>5.12494in</Left>
               <Height>0.17753in</Height>
               <Width>1.36864in</Width>
               <ZIndex>13</ZIndex>
@@ -1199,7 +1199,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.77104in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.31944in</Width>
               <ZIndex>14</ZIndex>
@@ -1230,7 +1230,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.77104in</Top>
-              <Left>4.9793in</Left>
+              <Left>5.12494in</Left>
               <Height>0.17753in</Height>
               <Width>1.2144in</Width>
               <ZIndex>15</ZIndex>
@@ -1272,7 +1272,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.97317in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.31944in</Width>
               <ZIndex>16</ZIndex>
@@ -1303,7 +1303,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>1.97317in</Top>
-              <Left>4.9793in</Left>
+              <Left>5.12494in</Left>
               <Height>0.17753in</Height>
               <Width>1.36864in</Width>
               <ZIndex>17</ZIndex>
@@ -1345,7 +1345,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>2.17848in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.32031in</Width>
               <ZIndex>18</ZIndex>
@@ -1376,7 +1376,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>2.17848in</Top>
-              <Left>4.98017in</Left>
+              <Left>5.12581in</Left>
               <Height>0.17753in</Height>
               <Width>1.21353in</Width>
               <ZIndex>19</ZIndex>
@@ -1418,7 +1418,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>2.38379in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.319in</Width>
               <ZIndex>20</ZIndex>
@@ -1449,7 +1449,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>2.39767in</Top>
-              <Left>4.97886in</Left>
+              <Left>5.1245in</Left>
               <Height>0.17753in</Height>
               <Width>1.36908in</Width>
               <ZIndex>21</ZIndex>
@@ -1491,7 +1491,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>2.57524in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.17753in</Height>
               <Width>1.33203in</Width>
               <ZIndex>22</ZIndex>
@@ -1522,7 +1522,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox93</rd:DefaultName>
               <Top>2.5891in</Top>
-              <Left>4.97799in</Left>
+              <Left>5.12363in</Left>
               <Height>0.17753in</Height>
               <Width>1.21571in</Width>
               <ZIndex>23</ZIndex>
@@ -1551,7 +1551,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox2</rd:DefaultName>
               <Top>0.01389in</Top>
-              <Left>3.6043in</Left>
+              <Left>3.74994in</Left>
               <Height>0.22278in</Height>
               <Width>1in</Width>
               <ZIndex>24</ZIndex>
